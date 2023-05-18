@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "6465add28cddcebc7a8e6125"
+  },
+  "userId": "0001",
+  "userName": "Karan",
+  "Batch": "B42",
+  "DrivesAppeared": [
+    "1",
+    "3"
+  ],
+  "CodeKata": "100",
+  "Attendance": [
+    "01Oct2020"
+  ],
+  "TaskNotSubmitted": [
+    {
+      "Task_id": "Tsk_001",
+      "taskName": "Sql",
+      "TaughtOn": "23Oct2020"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6465add28cddcebc7a8e6126"
+  },
+  "userId": "0002",
+  "userName": "Arun",
+  "Batch": "B42",
+  "DrivesAppeared": [
+    "2",
+    "3"
+  ],
+  "CodeKata": "250",
+  "Attendance": [
+    "23Oct2020"
+  ],
+  "TaskNotSubmitted": [
+    {
+      "Task_id": "Tsk_001",
+      "taskName": "Sql",
+      "TaughtOn": "23Oct2020"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "6465add28cddcebc7a8e6127"
+  },
+  "userId": "0003",
+  "userName": "Kamal",
+  "Batch": "B42",
+  "DrivesAppeared": [
+    "4"
+  ],
+  "CodeKata": "230",
+  "Attendance": [],
+  "TaskNotSubmitted": []
+},{
+  "_id": {
+    "$oid": "6465add28cddcebc7a8e6128"
+  },
+  "userId": "0004",
+  "userName": "Sanjay",
+  "Batch": "B42",
+  "DrivesAppeared": [
+    "2",
+    "3",
+    "4"
+  ],
+  "CodeKata": "210",
+  "Attendance": [],
+  "TaskNotSubmitted": []
+},{
+  "_id": {
+    "$oid": "6465add28cddcebc7a8e6129"
+  },
+  "userId": "0005",
+  "userName": "Krish",
+  "Batch": "B42",
+  "DrivesAppeared": [
+    "3",
+    "4"
+  ],
+  "CodeKata": "290",
+  "Attendance": [
+    "23Nov2020"
+  ],
+  "TaskNotSubmitted": [
+    {
+      "Task_id": "Tsk_004",
+      "taskName": "JS",
+      "TaughtOn": "23Nov2020"
+    }
+  ]
+}]

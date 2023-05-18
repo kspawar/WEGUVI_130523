@@ -1,0 +1,19 @@
+1. db.Task_Topic.find({'month': 'Oct2020'}).pretty()
+
+2.  db.company_drives.find({DriveDate : { $gt: new Date("15-Oct-2020"), $lt: new Date("31-Oct-2020")} }).pretty()
+
+3. db.users.aggregate([
+	{
+		$lookup:
+			{
+			from: "company_drives",
+			localField: "DrivesAppeared",
+			foreignField: "CompID",
+			as: "result"
+			}
+	}
+]).pretty()
+
+4. db.users.find({},{'userName': 1, 'CodeKata': 1, '_id': 0}).pretty()
+
+5. db.Mentor.find({Mentee: { $gt: 15 }}).pretty()

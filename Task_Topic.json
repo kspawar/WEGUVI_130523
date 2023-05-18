@@ -1,0 +1,84 @@
+[
+	{
+		"Id"	:	"T001",
+		"month" : "Oct2020",
+		"Task"	:	[
+						{
+							"Task_id" : "Tsk_001",
+							"taskName" : "Sql",
+							"TaughtOn"	: "23Oct2020"
+						},
+						{
+							"Task_id" : "Tsk_002",
+							"taskName" : "MongoDB",
+							"TaughtOn"	: "28Oct2020"						
+						}
+					],
+		"Topics":	[
+						{
+							"Top_id" : "Tp_001",
+							"topicName" : "Sql",
+							"TaughtOn"	: "23Oct2020"
+						},
+						{
+							"Top_id" : "Tp_002",
+							"topicName" : "MongoDB",
+							"TaughtOn"	: "28Oct2020"						
+						}			
+					]
+	},
+	{
+		"Id"	:	"T002",
+		"month" : "Sep2020",
+		"Task"	:	[
+						{
+							"Task_id" : "Tsk_003",
+							"taskName" : "Python",
+							"TaughtOn"	: "30Sep2020"		
+						}
+					],
+		"Topics":	[
+						{
+							"Top_id" : "Tp_003"	,					
+							"topicName" : "Python",
+							"TaughtOn"	: "30Sep2020"		
+						}	
+					]
+	},	
+	{
+		"Id"	:	"T003",
+		"month" : "Nov2020",
+		"Task"	:	[
+						{
+							"Task_id" : "Tsk_004",
+							"taskName" : "JS",
+							"TaughtOn"	: "23Nov2020"		
+						}
+					],
+		"Topics":	[
+						{
+							"Top_id" : "Tp_004",						
+							"topicName" : "JS",
+							"TaughtOn"	: "23Nov2020"		
+						}	
+					]
+	},	
+	{
+		"Id"	:	"T004",
+		"month" : "Dec2020",
+		"Task"	:	[
+						{
+							"Task_id" : "Tsk_005",
+							"taskName" : "ReactJS",
+							"TaughtOn"	: "15Dec2020"		
+						}
+					],
+		"Topics":	[
+						{
+							"Top_id" : "Tp_005",						
+							"topicName" : "ReactJS",
+							"TaughtOn"	: "15Dec2020"		
+						}	
+					]
+	}
+]
